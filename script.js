@@ -33,7 +33,7 @@ if(l == 'yes' || l =='Yes' || l== 'YES'){
 })
 
 data.addEventListener('click',()=>{
-	location.href = `https://wa.me/2348155386242?text=I%20am%20interested%20$%20sale`;
+	location.href = `https://wa.me/2348155386242?text=I%20am%20interested%20in%20chips%20for%20sale`;
 });
 
 
