@@ -21,7 +21,7 @@ let x =  `https://wa.me/2348155386242?text=I%20am%20interested%20${j}%20sale`;
 
 let l = prompt('is that all please enter YES or NO')
 if(l == 'yes' || l =='Yes' || l== 'YES'){
-	location.href = `https://wa.me/2348155386242?text=I%20am%20interested%20${j}%20sale`;
+	location.href = `https://wa.me/2348155386242?text=Good%20afternoon%20please%20%20%20I%20am%20interested%20in%${j}%20for%20sale`;
 }else{
 	return
 }
@@ -33,7 +33,7 @@ if(l == 'yes' || l =='Yes' || l== 'YES'){
 })
 
 data.addEventListener('click',()=>{
-	location.href = `https://wa.me/2348155386242?text=I%20am%20interested%20in%20chips%20for%20sale`;
+	location.href = `https://wa.me/2348155386242?text=Good%20afternoon%20please%20%20%20I%20am%20interested%20in%20chips%20for%20sale`;
 });
 
 
