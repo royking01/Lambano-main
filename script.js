@@ -22,7 +22,7 @@ variants.addEventListener('change',async (e)=>{
 		let j =	 a + " packs" + " " + bag[0] +" " +'plantain' +" " + o; 
 alert(`thank you for orderding ${j}, you will be redirected to sales now, thank you`)
 	
-		location.href = `https://wa.me/2348155386242?text=Good%20afternoon%20please%20%20%20I%20am%20interested%20in%20${a}%20packs%20of${0}%20${d}chips%20for%20sale`;
+		location.href = `https://wa.me/2348155386242?text=Good%20afternoon%20please%20%20%20I%20am%20interested%20in%20${a}%20packs%20of${o}%20${d}chips%20for%20sale`;
 	
 
 console.log(j)
