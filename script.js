@@ -17,11 +17,11 @@ variants.addEventListener('click',async (e)=>{
 
 	if(a >0){
 let j =	bag[0] + '%20'+ a 
-let x =  `https://wa.me/15551234567?text=I%20am%20interested%20${j}%20sale`;
+let x =  `https://wa.me/2348155386242?text=I%20am%20interested%20${j}%20sale`;
 
 let l = prompt('is that all please enter YES or NO')
 if(l == 'yes' || l =='Yes' || l== 'YES'){
-	location.href = j
+	location.href = `https://wa.me/2348155386242?text=I%20am%20interested%20${j}%20sale`;
 }else{
 	return
 }
