@@ -17,7 +17,7 @@ variants.addEventListener('change',async (e)=>{
 	let a = prompt(`how many packs of ${d} plantain are you interested in please`);
 	if(a > 0){
 
-	let o = prompt('what price range are you orderding from please')
+	let o = prompt('what price range are you orderding from please? our retail prices range from N200,N500,N1000 and N2500')
 
 		let j =	 a + " packs" + " " + bag[0] +" " +'plantain' +" " + o; 
 alert(`thank you for orderding ${j}, you will be redirected to sales now, thank you`)
