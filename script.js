@@ -18,17 +18,13 @@ variants.addEventListener('click',async (e)=>{
 	if(a >0){
 let j =	bag[0] + '%20'+ a 
 let x =  `https://wa.me/15551234567?text=I%20am%20interested%20${j}%20sale`;
-	console.log(bag)
-	console.log(x)
-	console.log(j)
-	// let c =	prompt('is that all')
-	
-	// 		if(c == 'no'){
-	// 				console.log(x)
-	// 		}else{
 
-			// }
-		
+let l = prompt('is that all please enter YES or NO')
+if(l == 'yes' || l =='Yes' || l== 'YES'){
+	location.href = j
+}else{
+	return
+}
 	}
 	// console.log(bag)
 	console.log(x)
